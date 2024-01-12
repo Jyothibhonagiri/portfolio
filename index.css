@@ -1,0 +1,88 @@
+
+ 
+ .container{
+    background-color: mediumaquamarine;
+    width: 100%;
+    height: 50px;
+    padding-left: 5%;
+    border-radius: 20px;
+   
+   
+}
+ul>li{
+    display: inline-block;
+    padding-right: 8%;
+}
+
+.content{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.YUnZzokSv17Jq55l8RPwigHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+ display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+#PERSONAL-INFO{
+    background-color: mediumturquoise;
+    width:100%;
+    height: 30vh;
+}
+#EDUCATION{
+    background-color: lightsalmon;
+    margin-top: 2%;
+}
+#SKILLS{
+    background-color:lightblue;
+}
+#CONTACT{
+    background-color:lightslategray;
+}
+
+.education-container{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.card-container{
+    width: 80%;
+    height:50%;
+   
+}
+.card1{
+    height: 200px;
+    width:200px;
+    border:none;
+    margin-left: 30%;
+    box-shadow: 2px 1px 2px 4px blue;
+}
+.card2{
+    height: 200px;
+    width:200px;
+    border:none;
+    margin-left: 90%;
+    box-shadow: 2px 1px 2px 4px gold;
+}
+.card3{
+    height: 250px;
+    width:200px;
+    border:none;
+    margin-left: 30%;
+    box-shadow: 2px 1px 2px 4px skyblue;
+}
+.card4{
+    height: 250px;
+    width:200px;
+    border:none;
+    margin-left: 90%;
+    box-shadow: 2px 1px 2px 4px palevioletred;
+}
+
+input{
+    border: none;
+    box-shadow: 0px 2px blue;
+}
